@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Titillium+Web:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-size: 18px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgb(70, 155, 181);
+}
+
+.cont input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 220px;
+    height: 20px;
+    text-align: center;
+}
+
+select {
+    width: 220px;
+    font-size: 16px;
+    outline: none;
+}
+
+.cont select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit {
+    width: 80px;
+    font-size: 18px;
+    height: 30px;
+}
+
+
+
+#number::-webkit-outer-spin-button,
+#number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#number {
+    outline: none;
+    font-size: 16px;
+}
